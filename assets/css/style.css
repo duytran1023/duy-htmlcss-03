@@ -29,6 +29,13 @@ body {
     margin: 0 auto;
 }
 
+.btn {
+    color: #fff;
+    background: #2E80CE;
+    padding: 1.2rem 2.1rem;
+    border-radius: 999px;
+}
+
 a {
     text-decoration: none;
 }
@@ -37,6 +44,12 @@ a {
 .header {
     min-height: 100vh;
     background: var(--header-bg);
+    padding-top: 30px;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
 }
 
 .logo {
@@ -84,4 +97,49 @@ a {
 .logo__brand--small {
     font-size: 1.2em;
     font-weight: 300;
+}
+
+.navbar__list {
+    display: flex;
+
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar__link {
+    color: #C9D2DA;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.75;
+    padding: 0.8rem 2.1rem;
+}
+
+.navbar__items--active a {
+    font-weight: 400;
+
+}
+
+.navbar__items--active::before {
+    content: "";
+    display: inline-block;
+    background: #fff;
+    width: 0.6rem;
+    height: 0.6rem;
+    border-radius: 50%;
+    position: relative;
+    right: -20px;
+    top: -2px;
+
+}
+
+.action__btn {}
+
+.action__btn--login {
+    color: #C9D2DA;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.75;
+    margin-right: 4.8rem;
 }
