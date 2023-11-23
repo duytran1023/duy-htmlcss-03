@@ -469,7 +469,11 @@ a {
     max-width: 100%;
     object-fit: cover;
     display: block;
+    transition: 0.3s;
+}
 
+.member-item:hover .member__img {
+    transform: scale(1.1);
 }
 
 .member__name {
@@ -515,6 +519,7 @@ a {
     background-color: #2E80CE;
     color: #FFF;
     border-color: #2E80CE;
+    cursor: pointer;
 }
 
 .member__control--next-icon {
