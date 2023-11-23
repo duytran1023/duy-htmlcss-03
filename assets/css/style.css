@@ -525,3 +525,47 @@ a {
 .member__control--next-icon {
     rotate: 180deg;
 }
+
+/* install */
+.install {
+    padding-top: 180px;
+}
+
+.install__inner {
+    display: flex;
+    background-color: #2E80CE;
+    border-radius: 4px;
+    padding: 0 70px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.install__img {
+    display: block;
+    max-width: 284px;
+    height: 522px;
+    object-fit: cover;
+    margin-top: -95px;
+
+}
+
+.install__content {
+    max-width: 586px;
+}
+
+.install__heading {
+    color: #FFF;
+    font-size: 50px;
+    width: 489px;
+    margin-bottom: 18px;
+}
+
+.install__desc {
+    color: #FFF;
+    margin-bottom: 38px;
+}
+
+.install__row {
+    display: flex;
+    column-gap: 28px;
+}
